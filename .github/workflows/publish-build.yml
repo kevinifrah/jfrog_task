@@ -17,7 +17,7 @@ jobs:
   build-publish-docker:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: myApp
+      IMAGE_NAME: user-management-service
       JF_URL: https://${{ vars.JF_URL }}
       DOCKER_BUILD_SUMMARY: false
       DOCKER_BUILD_RECORD_UPLOAD: false
